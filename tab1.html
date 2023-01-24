@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Math Quiz</title>
+        <link rel="stylesheet" href="assignment.css">
+        <link rel="icon" href="logo.ico">
+    </head>
+
+    <body>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Math Quiz</h1>
+            </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="tab1.html">QUIZZES</a></li>
+                        <li><a href="kontakt.html">SURVEY</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="body">
+                    <div id="QUIZZES">
+                        <p id="text1"></p>
+                        <h1>Choose Or Pick Your Faith</h1>
+                        <br>
+                        <br>
+                        <input type="button" id="Random" onclick="window.location.reload(true)" value="Randomize?">
+                        <br>
+                        <a href="addition.html">Addition</a>
+                        <a href="subtraction.html">Substraction</a>
+                        <a href="multiplication.html">Multiplication</a>
+                        <a href="division.html">Division</a>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h2> Pick Your Faith Here</h2>
+          
+                    </div>
+                </div>
+                <script>
+                    var randomNum = Math.floor(Math.random() * 4) + 1;
+                    var text = document.getElementById("text1")
+
+                    switch(randomNum){
+                        case 1:
+                            text.textContent = "Try Addition!"
+                            break;
+                        case 2:
+                            text.textContent = "Try Subtraction!"
+                            break;
+                        case 3:
+                            text.textContent = "Try Multiplication!"
+                            break;
+                        case 4:
+                            text.textContent = "Try Division!"
+                            break;
+
+                    }
+                </script>
+    </body>
+  
+   
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Math Quiz</title>
+        <link rel="stylesheet" href="assignment.css">
+        <link rel="icon" href="logo.ico">
+    </head>
+
+    <body>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Math Quiz</h1>
+            </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="tab1.html">QUIZZES</a></li>
+                        <li><a href="kontakt.html">SURVEY</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="body">
+                <div id="heading">
+                        <h1>Addition</h1>
+                        <br>
+                        <br>
+                        <img src="" id ="image1">
+                        <p id="picture"></p>
+                        <br>
+                        <br>
+                        <button id="btn" onclick="window.location.reload(true)">Reload</button>
+                        <input type="button" id="Num" onclick="question_1()" value="52 + 34">
+                        <input type="button" id="Num" onclick="question_2()" value="64 + 36">
+                        <input type="button" id="Num" onclick="question_3()" value="20 + 20">
+                        <input type="button" id="Num" onclick="question_4()" value="98 + 51">
+                        <input type="button" id="Num" onclick="question_5()" value="34 + 30">
+                        <input type="button" id="Num" onclick="question_6()" value="11 + 70">
+                        <input type="button" id="Num" onclick="question_7()" value="46 + 26">
+                        <input type="button" id="Num" onclick="question_8()" value="25 + 59">
+                        <br>
+                        <br>
+                        <br>
+
+                        <a href="tab1.html">Go back</a>
+
+                <script>
+            function question_1(){
+                var Number1 = window.prompt("What is 52+34?");
+                var Number = parseInt(Number1);
+                 var image = document.getElementById("image1");
+
+
+                if(isNaN(Number) == true){
+                    image.src = "error.png"
+                    var p = document.getElementById("text")
+                }
+                else if(Number !=86){
+                    image.src = "wrong_addition_1.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+           function question_2(){
+                var Number1 = window.prompt("What is 64+36?");
+                var Number = parseInt(Number1);
+                 var image = document.getElementById("image1");
+
+
+                if(isNaN(Number) == true){
+                    image.src = "error.png"
+                    var p = document.getElementById("text")
+                }
+                else if(Number !=100){
+                    image.src = "wrong_addition_2.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+           function question_3(){
+                var Number1 = window.prompt("What is 20+20?");
+                var Number = parseInt(Number1);
+                 var image = document.getElementById("image1");
+
+
+                if(isNaN(Number) == true){
+                    image.src = "error.png"
+                    var p = document.getElementById("text")
+                }
+                else if(Number !=40){
+                    image.src = "wrong_addition_3.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+           function question_4(){
+                var Number1 = window.prompt("What is 98+51?");
+                var Number = parseInt(Number1);
+                 var image = document.getElementById("image1");
+
+
+                if(isNaN(Number) == true){
+                    image.src = "error.png"
+                    var p = document.getElementById("text")
+                }
+                else if(Number !=149){
+                    image.src = "wrong_addition_4.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+           function question_5(){
+                var Number1 = window.prompt("What is 34+74?");
+                var Number = parseInt(Number1);
+                 var image = document.getElementById("image1");
+
+
+                if(isNaN(Number) == true){
+                    image.src = "error.png"
+                    var p = document.getElementById("text")
+                }
+                else if(Number !=64){
+                    image.src = "wrong_addition_5.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+           function question_6(){
+                var Number1 = window.prompt("What is 11+70?");
+                var Number = parseInt(Number1);
+                 var image = document.getElementById("image1");
+
+
+                if(isNaN(Number) == true){
+                    image.src = "error.png"
+                    var p = document.getElementById("text")
+                }
+                else if(Number !=81){
+                    image.src = "wrong_addition_6.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+           function question_7(){
+                var Number1 = window.prompt("What is 46+96?");
+                var Number = parseInt(Number1);
+                 var image = document.getElementById("image1");
+
+
+                if(isNaN(Number) == true){
+                    image.src = "error.png"
+                    var p = document.getElementById("text")
+                }
+                else if(Number !=72){
+                    image.src = "wrong_addition_7.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+           function question_8(){
+                var Number1 = window.prompt("What is 16+59?");
+                var Number = parseInt(Number1);
+                 var image = document.getElementById("image1");
+
+
+                if(isNaN(Number) == true){
+                    image.src = "error.png"
+                    var p = document.getElementById("text")
+                }
+                else if(Number !=84){
+                    image.src = "wrong_addition_8.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+                </script>
+                
+                
+                    </div>   
+            </div>     
+    </body>
+
+
+  
+   
+</html>
