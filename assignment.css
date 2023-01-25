@@ -123,12 +123,6 @@ input[type=submit]:hover, [type="button"]:hover {
 	transition: 0.6s;
     background-color:  rgba(237, 172, 108, 0.747);
 }
-#picture{
-font-size: 40px;
-border-width: 1px double rgb(61, 158, 93);
-text-shadow: 1px 1px white;
-
-}
 #Random{
 	position: absolute;
 	top: 75%;
